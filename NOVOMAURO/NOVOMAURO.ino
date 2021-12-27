@@ -1,4 +1,14 @@
-#include <ESP8266WiFi.h>
+/* ==================================================================================================
+                                     UNIVERSIDADE EDUARDO MONDLANE
+                                        FACULDADE DE ENGENHARIA
+                                DEPARTAMENTO DE ENGENHARIA ELECTROTÉCNICA
+                                    CURSO DE ENGENHARIA ELECTRÓNICA
+                                     Relatório do Projeto do Curso
+                                Casa Inteligente controlada remotamente
+                                   Autor: Mauro Miguel Dos Martins
+                                 Supervisor: Luis Massango, Eng⁰.
+                                             Maputo, Dezembro de 2021
+   ==================================================================================================*/#include <ESP8266WiFi.h>
 #include<FirebaseArduino.h>
 
 #define FIREBASE_HOST "web-html-8cc81-default-rtdb.firebaseio.com"
