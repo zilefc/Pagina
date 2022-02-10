@@ -58,15 +58,7 @@
         estado: "DESLIGADA",
       });
     }
-    function ledOn0() {
-      firebase.database().ref("VARANDA").set({
-        estado: "LIGADA",
-      });
-    }
-    function ledOff0() {
-      firebase.database().ref("VARANDA").set({
-        estado: "DESLIGADA",
-      });
+    
     }
   </script>
   <script src="app.js" defer></script>
@@ -105,13 +97,6 @@
           </div>
         </fieldset>
 
-        <fieldset>
-          <legend>Varanda</legend>
-          <div>
-            <button class="led-on" onclick="ledOn0()">Ligar</button>
-            <button class="led-off" onclick="ledOff0()">Desligar</button>
-          </div>
-        </fieldset>
       </form>
     </main>
 
